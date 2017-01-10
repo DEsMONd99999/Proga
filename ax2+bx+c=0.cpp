@@ -1,4 +1,4 @@
-//axx+bx+c=0
+ï»¿//axx+bx+c=0
 #include <iostream>
 #include <clocale>
 using namespace std;
@@ -6,7 +6,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	float a, b, c, x1, x2;
-	cout << "Äëÿ óðàâíåíèÿ axx+bx+c=0 ââåäèòå a b c" << endl;
+	cout << "Ð”Ð»Ñ ÑƒÑ€Ð°Ð²Ð½ÐµÐ½Ð¸Ñ axx+bx+c=0 Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ a b c" << endl;
 	cin >> a >> b >> c;
 	x1 = (-b + sqrt(b * b - 4 * a * c)) / 2 * a;
 	x2 = (-b - sqrt(b * b - 4 * a * c)) / 2 * a;
